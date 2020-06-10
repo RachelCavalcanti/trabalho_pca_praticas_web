@@ -150,15 +150,13 @@ function CardGame (cards , controllerLogicGame,scoreBoard){
 }
 
 function BuilderCardGame(){
-	var pictures = new Array ('imagem9.png','imagem9.png',
+	var pictures = new Array (
 		'imagem1.png','imagem1.png',
 		'imagem2.png','imagem2.png',
 		'imagem3.png','imagem3.png',
 		'imagem4.png','imagem4.png',
 		'imagem5.png','imagem5.png',
-		'imagem6.png','imagem6.png',
-		'imagem7.png','imagem7.png',
-		'imagem8.png','imagem8.png',);
+		'imagem6.png','imagem6.png',);
 
 	this.doCardGame =  function (){
 		shufflePictures();
